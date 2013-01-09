@@ -12,8 +12,10 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *password;
 
-@property (strong, nonatomic) IBOutlet UIButton *MD5;
+@property (strong, nonatomic) IBOutlet UIButton *encrypt;
 
 @property (strong, nonatomic) IBOutlet UILabel *MD5pass;
+
+@property (strong, nonatomic) IBOutlet UILabel *SHA1pass;
 
 @end
