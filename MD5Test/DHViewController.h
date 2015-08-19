@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DHViewController : UIViewController<UITextFieldDelegate>
+@interface DHViewController : UIViewController<UITextFieldDelegate, UIAlertViewDelegate>
 
-@property (strong, nonatomic) IBOutlet UITextField *password;
+@property (strong, nonatomic) IBOutlet UITextField *tfInput;
 
-@property (strong, nonatomic) IBOutlet UIButton *encrypt;
+@property (strong, nonatomic) IBOutlet UIButton *btnEencrypt;
 
-@property (strong, nonatomic) IBOutlet UILabel *MD5pass;
+@property (strong, nonatomic) IBOutlet UILabel *lbMD5EncryptOutput;
 
-@property (strong, nonatomic) IBOutlet UILabel *SHA1pass;
+@property (strong, nonatomic) IBOutlet UILabel *lbSHA1EncryptOutput;
 
 @end
